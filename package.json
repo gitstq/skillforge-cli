@@ -1,0 +1,43 @@
+{
+  "name": "skillforge-cli",
+  "version": "1.0.0",
+  "description": "AI Agent Skill Forging, Testing & Distribution CLI — Cross-platform skill compatibility, auto quality assessment, and skill registry",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "skillforge": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --no-cache",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --no-cache"
+  },
+  "keywords": [
+    "ai-agent",
+    "skill",
+    "cli",
+    "forge",
+    "claude-code",
+    "codex",
+    "cursor",
+    "openclaw",
+    "mcp"
+  ],
+  "author": "gitstq",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.1.1",
+    "inquirer": "^12.4.3",
+    "yaml": "^2.6.1",
+    "semver": "^7.7.1",
+    "glob": "^11.0.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+name: test-skill
+version: 1.0.0
+description: A test-skill skill for AI agents
+author: anonymous
+license: MIT
+platforms:
+  - claude-code
+  - openclaw
+category: other
+keywords: []
+dependencies: {}
+compatibility:
+  minAgentVersion: 1.0.0
+files:
+  skill: SKILL.md
+  tests: tests/
+  examples: examples/

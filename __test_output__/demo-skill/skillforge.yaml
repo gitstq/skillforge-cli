@@ -1,0 +1,17 @@
+name: demo-skill
+version: 1.0.0
+description: A
+author: skillforge
+license: MIT
+platforms:
+  - claude-code
+  - openclaw
+category: coding
+keywords: []
+dependencies: {}
+compatibility:
+  minAgentVersion: 1.0.0
+files:
+  skill: SKILL.md
+  tests: tests/
+  examples: examples/
