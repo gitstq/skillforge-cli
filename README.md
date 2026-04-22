@@ -15,12 +15,27 @@ AI coding agents (Claude Code, Codex, Cursor, OpenClaw) each have their own skil
 | 📦 **Skill Registry** | Publish, discover, and search skills like npm but for AI agents |
 | 🏗️ **Scaffolding** | `skillforge create` generates complete skill project in seconds |
 
+## 📥 Installation
+
+### From npm (recommended)
+```bash
+npm install -g skillforge-cli
+```
+
+### From GitHub Release
+Download the latest release from [GitHub Releases](https://github.com/gitstq/skillforge-cli/releases/latest).
+
+```bash
+# Clone and install
+git clone https://github.com/gitstq/skillforge-cli.git
+cd skillforge-cli
+npm install
+npm link
+```
+
 ## Quick Start
 
 ```bash
-# Install
-npm install -g skillforge-cli
-
 # Create a new skill
 skillforge create my-awesome-skill
 
